@@ -60,5 +60,5 @@ async def predict_disease(image: UploadFile = File(...)):
 if __name__ == "__main__":
   # Run the FastAPI app (assuming Gunicorn or uvicorn is used)
   import uvicorn
-  uvicorn.run("app:app", host="192.168.162.121", port=8000)
+  uvicorn.run("app:app")
   
